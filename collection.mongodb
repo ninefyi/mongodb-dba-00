@@ -1,4 +1,5 @@
 use('test');
+db.collection.deleteMany({});
 db.collection.insertOne(
     {
         _id: 1,
@@ -8,7 +9,7 @@ db.collection.insertOne(
             { type: 'exam', score: 92.56968732083344 },
             { type: 'quiz', score: 94.1458967980018 },
             { type: 'homework', score: 87.82270697991954 },
-            { type: 'homework', score: 90.63550409412447 }
+            { type: 'homework', score: 80.63550409412447 }
         ]
     }
 )
